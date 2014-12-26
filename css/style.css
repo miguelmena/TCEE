@@ -295,11 +295,11 @@ ul.intro-social-buttons {
 
 ul.intro-social-buttons li a {
     display: block;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     border-radius: 100%;
-    font-size: 20px;
-    line-height: 40px;
+    font-size: 40px;
+    line-height: 58px;
     outline: 0;
     color: #fff;
     background-color: #222;
@@ -339,32 +339,42 @@ header .intro-text .intro-heading {
 @media(min-width:768px) {
 	header .intro-video {
 		margin-top: 140px;
-        padding: 190px;
     }
 	
-	
+	header .intro-video .video {
+		padding: 200px;
+		margin-bottom: 10px;
+    }
 	
 	header .intro-text {
-        padding-top: 140px;
-        padding-bottom: 200px;
+		padding: 20px;
+		background: #ffffff;
+		margin-top: 140px;
+		margin-bottom: 50px;
+		-webkit-border-radius: 7px;
+		-moz-border-radius: 7px;
+		border-radius: 7px;
     }
 	
     header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 30px;
         font-style: italic;
-        /*line-height: 40px;*/
+		color:#000000;
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 30px;
-        /*font-weight: 700;
-        line-height: 75px;*/
+		color:#000000;
     }
+	
+	header .intro-text .disclamer {
+		padding-top: 20px;
+		color: #5F5F5F;
+		font-style:italic;
+	}
 }
 
 section {
@@ -716,6 +726,15 @@ section h3.section-subheading {
     -o-background-size: cover;
 	padding-top: 50px;
 	padding-bottom: 0px;
+}
+
+.footer-optin .input {
+	padding: 32px 15px;
+	margin-right: 5px;
+}
+
+.footer-optin b {
+	color: #fed136;
 }
 
 aside.clients img {
