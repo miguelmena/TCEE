@@ -1,5 +1,119 @@
 <!-- list -->
 <ul class="nav">
+   <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
+    <span translate="aside.nav.managements.MANAGEMENTS">Managements</span>
+  </li>
+
+  <li ng-class="{active:$state.includes('app.page')}">
+    <a href class="auto">
+        <span class="pull-right text-muted">
+            <i class="fa fa-fw fa-angle-right text"></i>
+            <i class="fa fa-fw fa-angle-down text-active"></i>
+        </span>
+        <i class="icon-user icon text-success-lter"></i>
+        <span translate="aside.nav.components.pages.USERS">Users</span>
+    </a>
+    <ul class="nav nav-sub dk">
+        <li class="nav-sub-header">
+            <a href>
+                <span translate="aside.nav.components.pages.USERS">Users</span>
+            </a>
+        </li>       
+        <li ui-sref-active="active">
+            <a ui-sref="app.page.user_account">
+                <span translate="aside.nav.components.pages.USER_ACCOUNT">Account</span>
+            </a>
+        </li>
+        <li ui-sref-active="active">
+            <a ui-sref="app.page.user_profile">
+                <span translate="aside.nav.components.pages.USER_PROFILE">Profile</span>
+            </a>
+        </li>      
+    </ul>     
+  </li>
+  <li>
+    <a href class="auto">
+        <span class="pull-right text-muted">
+            <i class="fa fa-fw fa-angle-right text"></i>
+            <i class="fa fa-fw fa-angle-down text-active"></i>
+        </span>
+        <i class="icon-user icon text-success-lter"></i>
+        <span translate="aside.nav.components.pages.SETTINGS">Settings</span>
+    </a>
+    <ul class="nav nav-sub dk">
+      <li class="nav-sub-header">
+          <a href>
+              <span translate="aside.nav.components.pages.SETTINGS">Settings</span>
+          </a>
+      </li>       
+      <li ui-sref-active="active">
+          <a ui-sref="app.page.settings_promlinks">
+              <span translate="aside.nav.components.pages.SETTING_PROM_LINKS">Promotion Links</span>
+          </a>
+      </li>
+      <li ui-sref-active="active">
+          <a ui-sref="app.page.settings_promautoresponder">
+              <span translate="aside.nav.components.pages.SETTING_PROM_AUTORESP">Autoresponder</span>
+          </a>
+      </li>      
+    </ul>
+  </li>
+  <li>
+    <a href class="auto">
+        <span class="pull-right text-muted">
+            <i class="fa fa-fw fa-angle-right text"></i>
+            <i class="fa fa-fw fa-angle-down text-active"></i>
+        </span>
+        <i class="icon-user icon text-success-lter"></i>
+        <span translate="aside.nav.components.pages.PROSPECTS">Prospects</span>
+    </a>
+    <ul class="nav nav-sub dk">
+      <li class="nav-sub-header">
+          <a href>
+              <span translate="aside.nav.components.pages.PROSPECTS">Prospects</span>
+          </a>
+      </li>       
+      <li ui-sref-active="active">
+          <a ui-sref="app.page.settings_promlinks">
+              <span translate="aside.nav.components.pages.PROSPECT_LIST">List</span>
+          </a>
+      </li>      
+    </ul>
+  </li>
+  <li>
+    <a href class="auto">
+        <span class="pull-right text-muted">
+            <i class="fa fa-fw fa-angle-right text"></i>
+            <i class="fa fa-fw fa-angle-down text-active"></i>
+        </span>
+        <i class="icon-user icon text-success-lter"></i>
+        <span translate="aside.nav.components.pages.LANDINGPAGES">Landing Pages</span>
+    </a>
+    <ul class="nav nav-sub dk">
+      <li class="nav-sub-header">
+          <a href>
+              <span translate="aside.nav.components.pages.LANDINGPAGES">Landing Pages</span>
+          </a>
+      </li>       
+    </ul>
+  </li>
+  <li>
+    <a href class="auto">
+        <span class="pull-right text-muted">
+            <i class="fa fa-fw fa-angle-right text"></i>
+            <i class="fa fa-fw fa-angle-down text-active"></i>
+        </span>
+        <i class="icon-user icon text-success-lter"></i>
+        <span translate="aside.nav.components.pages.TRAINING">Training</span>
+    </a>
+    <ul class="nav nav-sub dk">
+      <li class="nav-sub-header">
+          <a href>
+              <span translate="aside.nav.components.pages.TRAINING">Training</span>
+          </a>
+      </li>       
+    </ul>
+  </li>
   <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
     <span translate="aside.nav.HEADER">Navigation</span>
   </li>
@@ -31,6 +145,7 @@
       </li>
     </ul>
   </li>
+ 
   <li ui-sref-active="active">
     <a ui-sref="app.calendar">
       <i class="glyphicon glyphicon-calendar icon text-info-dker"></i>

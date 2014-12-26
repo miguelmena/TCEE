@@ -48,7 +48,17 @@
       "CHART" : "Chart",
       "pages" : {
         "PAGES" : "Pages",
+        "USERS" : "Users",
+        "USER_ACCOUNT": "Account",
+        "USER_PROFILE": "Profile",
         "PROFILE" : "Profile",
+        "SETTINGS" : "Settings",
+        "SETTING_PROM_LINKS" : "Promotion Links",
+        "SETTING_PROM_AUTORESP" : "Autoresponder",
+        "PROSPECTS": "Prospects",
+        "PROSPECT_LIST": "List",
+        "LANDINGPAGES": "Landing Pages",
+        "TRAINING": "BootCamp",
         "POST" : "Post",
         "SEARCH" : "Search",
         "INVOICE" : "Invoice",
@@ -58,6 +68,9 @@
         "FORGOT_PASSWORD" : "Forgot password",
         "404" : "404"
       }
+    },
+    "managements" : {
+        "MANAGEMENTS": "Managements"
     },
     "your_stuff" : {
       "YOUR_STUFF": "Your Stuff",
