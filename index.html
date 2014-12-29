@@ -64,9 +64,6 @@
                     <li>
                         <a class="page-scroll" href="#testimonios">Testimonios</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#contacto">Contacto</a>
-                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -128,10 +125,7 @@
             </div>
             <div class="row text-center">
                 <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-user fa-stack-1x fa-inverse"></i>
-                    </span>
+                    <img src="img/team/1.jpg" class="img-responsive img-circle foto-user" alt="">
                     <h4 class="service-heading">User Name</h4>
                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>
@@ -156,10 +150,10 @@
     </section>
 	
     <!-- Video Background -->
-	<div id="outer-wrap" style="width: 100%; height: 450px; position: relative; overflow: hidden; z-index: 1;">
-    	<div style="position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; z-index: -2; -webkit-backface-visibility: hidden; -webkit-transform: translateZ(0px); opacity: 0.5; background: rgb(0, 0, 0);"></div>
-		<div id="vid-wrap" class="embed-responsive" style="position: absolute; width: 1349px; height: 758.8125px; top: 0px; left: 0px; z-index: -10;">
-			<video id="my-video" preload="auto" autoplay loop muted poster="img/video-poster.jpg" style="left: 0px; position: relative; z-index: -11; width: 1349px; height: 758.8125px;">
+	<div class="bg-video">
+    	<div class="bg"></div>
+		<div class="embed-responsive vid-wrap">
+			<video class="video" preload="auto" autoplay loop muted poster="img/video-poster.jpg">
 				<source src="video/steven.mp4" type="video/mp4">
 				<source src="video/steven.webm" type="video/webm">
 			</video>
@@ -218,7 +212,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Los <b>6 Errores</b> Fatales Que Cometen El 97% De Las Personas Que Les ha asegurado el fracaso</h2>
+                    <h2 class="section-heading headline">Los <b>6 Errores</b> Fatales Que Cometen El 97% De Las Personas Que Les ha asegurado el fracaso</h2>
 					<form class="form-inline">
 						<div class="form-group">
 							<input type="text" class="form-control input-lg input" placeholder="Ingresa tu Nombre..."> 
@@ -229,54 +223,9 @@
 						<div class="form-group">
 							<input type="tel" class="form-control input-lg input" placeholder="Ingresa tu Telefono..."> 
 						</div>
-						<button type="submit" class="btn btn btn-xl">Enviame Información</button>
+						<button type="submit" class="btn btn-xl boton">Enviame Información</button>
 					</form>
                     <h3 class="section-subheading"><i class="fa fa-lock"></i>* Tus datos están seguros con nosotros *</h3>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-	<!-- Contacto -->
-    <section id="contacto">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Contacto</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Nombre *" id="name" required data-validation-required-message="Introduzca su nombre.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Email *" id="email" required data-validation-required-message="Introduzca su dirección de correo electrónico.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input type="tel" class="form-control" placeholder="Telefono *" id="phone" required data-validation-required-message="Introduzca su número de teléfono.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <textarea class="form-control" placeholder="Mensaje *" id="message" required data-validation-required-message="Por favor ingrese un mensaje."></textarea>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="col-lg-12 text-center">
-                                <div id="success"></div>
-                                <button type="submit" class="btn btn-xl">Enviar Mensaje</button>
-                            </div>
-                        </div>
-                    </form>
                 </div>
             </div>
         </div>
